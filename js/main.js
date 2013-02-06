@@ -1,8 +1,9 @@
 $(document).ready(function(){
 
-  var map = new L.Map('map', {attributionControl: false}).setView(new L.LatLng(38.35, -76), 8);
+  var map = new L.Map('map').setView(new L.LatLng(38.85, -77), 7);
 
-  var mapboxURL = 'http://a.tiles.mapbox.com/v3/{{YOUR-MAP-ID}}/{z}/{x}/{y}.png';
-  L.tileLayer(mapboxURL, { attribution: 'MD iMAP'}).addTo(map);
+  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
 
 });
