@@ -1,4 +1,5 @@
 mapboilerplate
 ==============
 
-A simple HTML boilerplate for web mapping with Leaflet, Bootstrap, and jQuery.
+A simple html boilerplate for getting started with your OpenStreetMap app as 
+quickly as possible. Includes Leaflet.js, Bootstrap, and jQuery.
